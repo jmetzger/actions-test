@@ -14,7 +14,9 @@ jobs:
       
       - name: Create local changes
         run: |
-          echo "my test" > testfile 
+          date > testfile 
+          echo "my test" >> testfile
+          pwd >> testfile 
       - name: Commit files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
