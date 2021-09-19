@@ -1,4 +1,4 @@
-Sat Sep 18 06:06:02 UTC 2021
+Sun Sep 19 10:12:58 UTC 2021
 my test
 /home/runner/work/actions-test/actions-test
 /home/runner
@@ -7,10 +7,10 @@ GOROOT_1_17_X64=/opt/hostedtoolcache/go/1.17.1/x64
 CONDA=/usr/share/miniconda
 GITHUB_WORKSPACE=/home/runner/work/actions-test/actions-test
 JAVA_HOME_11_X64=/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64
-GITHUB_PATH=/home/runner/work/_temp/_runner_file_commands/add_path_ae84abf7-917e-4cff-87c9-d00790ab5231
+GITHUB_PATH=/home/runner/work/_temp/_runner_file_commands/add_path_327f8575-591c-4863-b20e-67f145edfed1
 GITHUB_ACTION=__run_3
 JAVA_HOME=/usr/lib/jvm/adoptopenjdk-11-hotspot-amd64
-GITHUB_RUN_NUMBER=4
+GITHUB_RUN_NUMBER=7
 GRADLE_HOME=/usr/share/gradle-7.2
 XDG_CONFIG_HOME=/home/runner/.config
 DOTNET_SKIP_FIRST_TIME_EXPERIENCE=1
@@ -25,7 +25,7 @@ PIPX_BIN_DIR=/opt/pipx_bin
 DEPLOYMENT_BASEPATH=/opt/runner
 GITHUB_ACTIONS=true
 ANDROID_NDK_LATEST_HOME=/usr/local/lib/android/sdk/ndk/22.1.7171670
-GITHUB_SHA=ff3bab2bdd59ef74d4252bf218041456fca0c13d
+GITHUB_SHA=736143975b8b1d11a0edd17a356531826fd3cc07
 POWERSHELL_DISTRIBUTION_CHANNEL=GitHub-Actions-ubuntu20
 DOTNET_MULTILEVEL_LOOKUP=0
 GITHUB_REF=refs/heads/main
@@ -33,14 +33,14 @@ RUNNER_OS=Linux
 HOME=/home/runner
 GITHUB_API_URL=https://api.github.com
 LANG=C.UTF-8
-RUNNER_TRACKING_ID=github_70fd823b-2c07-4e1d-b94f-09e6db1b2d26
+RUNNER_TRACKING_ID=github_0deaecc8-865c-4ae8-8252-a76f47f56816
 STATS_KEEPALIVE=false
 RUNNER_TEMP=/home/runner/work/_temp
-GITHUB_ENV=/home/runner/work/_temp/_runner_file_commands/set_env_ae84abf7-917e-4cff-87c9-d00790ab5231
+GITHUB_ENV=/home/runner/work/_temp/_runner_file_commands/set_env_327f8575-591c-4863-b20e-67f145edfed1
 GITHUB_EVENT_PATH=/home/runner/work/_temp/_github_workflow/event.json
-INVOCATION_ID=6136bb0fd97f4fdd9fb3caedca59536f
+INVOCATION_ID=fa6f8303579b4abf908475ca0f0ba8e1
 GITHUB_EVENT_NAME=push
-GITHUB_RUN_ID=1247964011
+GITHUB_RUN_ID=1250490026
 ANDROID_NDK_HOME=/usr/local/lib/android/sdk/ndk-bundle
 HOMEBREW_NO_AUTO_UPDATE=1
 GITHUB_ACTOR=jmetzger
@@ -60,8 +60,8 @@ CHROMEWEBDRIVER=/usr/local/share/chrome_driver
 SHLVL=1
 ANDROID_SDK_ROOT=/usr/local/lib/android/sdk
 VCPKG_INSTALLATION_ROOT=/usr/local/share/vcpkg
-HOMEBREW_REPOSITORY=/home/linuxbrew/.linuxbrew/Homebrew
 RUNNER_TOOL_CACHE=/opt/hostedtoolcache
+HOMEBREW_REPOSITORY=/home/linuxbrew/.linuxbrew/Homebrew
 ImageVersion=20210913.1
 DOTNET_NOLOGO=1
 GRAALVM_11_ROOT=/usr/local/graalvm/graalvm-ce-java11-21.2.0
@@ -69,10 +69,10 @@ GITHUB_JOB=check-bats-version
 AZURE_EXTENSION_DIR=/opt/az/azcliextensions
 PERFLOG_LOCATION_SETTING=RUNNER_PERFLOG
 GITHUB_REPOSITORY=jmetzger/actions-test
-ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk-bundle
 CHROME_BIN=/usr/bin/google-chrome
+ANDROID_NDK_ROOT=/usr/local/lib/android/sdk/ndk-bundle
 GITHUB_RETENTION_DAYS=90
-JOURNAL_STREAM=8:21852
+JOURNAL_STREAM=8:22354
 RUNNER_WORKSPACE=/home/runner/work/actions-test
 LEIN_HOME=/usr/local/lib/lein
 LEIN_JAR=/usr/local/lib/lein/self-installs/leiningen-2.9.6-standalone.jar
@@ -92,3 +92,4 @@ GOROOT_1_15_X64=/opt/hostedtoolcache/go/1.15.15/x64
 AGENT_TOOLSDIRECTORY=/opt/hostedtoolcache
 GOROOT_1_16_X64=/opt/hostedtoolcache/go/1.16.8/x64
 _=/usr/bin/env
+that is executed in ./scripts/run.sh 
