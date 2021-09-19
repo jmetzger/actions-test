@@ -1,4 +1,7 @@
 #!/bin/bash 
 
 echo "that is executed in $0 " >> testfile 
-exit 1
+
+# that is really also shown in github action - and it fails, yeah ! 
+# exit 1
+exit 0 
