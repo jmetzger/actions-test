@@ -1,0 +1,6 @@
+name: 'GitHub Markdown2Pdf'
+description: 'Pushing to GitHub repository local changes'
+author: 'jmetzger'
+runs:
+  using: 'node14'
+  main: 'app.js'
